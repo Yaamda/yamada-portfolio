@@ -1,0 +1,239 @@
+body {
+ background-color: rgb(164, 202, 249);
+}
+header {
+    color: white;
+}
+header .row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin:0 auto;
+    max-width: 1280px;
+    padding: 20px;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav ul {
+    display: flex;
+
+}
+header nav ul li {
+    margin-left: 50px;
+}
+header nav ul li a {
+    transition: .7s;
+}
+header nav ul li a:hover {
+    transition: .7s;
+    opacity: 0.6;
+}
+.mv {
+    background-image: url(../images/mv.jpg);
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+.mv .container {
+    width: 90%;
+    margin:0 auto;
+    max-width: 1280px;
+    height: 640px;
+    position: relative;
+}
+.mv h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 24px;
+}
+.mv p {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.mv .title {
+    position: absolute;
+    bottom: 100px;
+    z-index: 2;
+}
+.mv .purple {
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    mix-blend-mode: multiply;
+}
+.section1 {
+    color: white;
+    padding: 80px 0;
+
+}
+.section1  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.section1 .row {
+    display: flex;
+    justify-content: space-between;
+}
+.section1 .col {
+    width: 48%;
+
+}
+.section1 .st {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section1 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.6;
+
+}
+.section1 .text {
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 50px 0;
+}
+ .btn {
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 100px;
+    display: inline-block;
+    width: 270px;
+    line-height: 60px;
+    text-align: center;
+    transition: .7s;
+}
+.btn:hover {
+    color: black;
+    border: 1px solid black;
+    transition: .7s;
+}
+.section2 {
+    color: white;
+    padding: 80px 0;
+
+}
+.section2 .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.section2 .st {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section2 h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 60px;
+
+}
+.section2 .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.section2 .col {
+    width: 31%;
+    position: relative;
+}
+.section2 img {
+    border-radius: 20px;
+}
+.section2 h3 {
+    background-color: blue;
+    display: inline-block;
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+.section2 .cen {
+    text-align: center;
+}
+.section3 {
+    color: white;
+    padding: 80px 0;
+
+}
+.section3 .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.section3 .st {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section3 h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+.section3 .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3 .col {
+    width: 48%;
+}
+.section3 .text {
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+.section3 img {
+    border-radius: 20px;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+
+}
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+    border-top: 1px solid wheat;
+    padding: 50px 0 20px ;
+}
+footer .logo {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+footer ul li {
+    font-size: 15px;
+    margin: 0 20px;
+
+}
+footer ul li a {
+    transition: .6;
+}
+footer ul li a:hover {
+    transition: .6;
+    opacity: 0.7;
+}
